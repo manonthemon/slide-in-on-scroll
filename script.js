@@ -2,13 +2,14 @@
 const sliderImages = document.querySelectorAll('.slide-in')
 
 
-function checkSlide() {
-    
+function checkSlide(e) {
+    console.count(e)
 }
 
+window.addEventListener('scroll' , debounce(checkSlide))
 
 
-
+//This function improves performance be limiting the amount of times another function is executed
 
 function debounce(func, wait = 20, immediate = true) {
     var timeout;
