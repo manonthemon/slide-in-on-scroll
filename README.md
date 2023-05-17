@@ -13,7 +13,7 @@ This script applies a slide-in effect on scroll on images on a website. It detec
 
 ## Usage
 
-You can test the app here: https://manonthemon.github.io/lide-in-on-scroll
+You can test the app here: https://manonthemon.github.io/slide-in-on-scroll
 
 ## Copyright
 
